@@ -3,3 +3,393 @@
   --black-color: #222222;
   --light-color:#FFFFFF;
 }
+*,
+*::after,
+*::before{
+  box-sizing: border-box;
+}
+body{
+  margin:0;
+  font-family: "Poppins",sans-serif;
+}
+.wrapper{
+  max-width: 1134px;
+  margin: 0 auto;
+}
+.btn {
+    padding: 16px 32px;
+    border-radius: 10px;
+    color: #fff;
+    display: inline-block;
+    font-weight: 500;
+    font-size: 14px;
+    text-decoration: none;
+    position: relative;
+  }
+  .btn.dark {
+    background: var(--orange-color);
+  }
+  .btn.light {
+    color: #FA7436;
+    background-color: #f1edea;
+  }
+  span.journey {
+    color: #FA7436;
+  }
+  header{
+    background: #FEFCFB;
+    height: 100vh;
+    width: 100%;
+  }
+
+ nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: fixed;
+    width: 1134px;
+    top: 0;
+    padding: 36px 0;
+    z-index: 100;
+    transition: all 500ms ease;
+ }
+
+ nav .logo {
+  font-family: "Volkhov", sans-serif;
+  font-weight: 700;
+  font-size: 30px;
+  color: #222222;
+}
+nav ul {
+  display: flex;
+  align-items: center;
+  gap: 60px;
+  list-style: none;
+  margin: 0;
+}
+
+nav ul li a {
+  font-weight: 400;
+  font-size: 16px;
+  color: #000;
+  text-decoration: none;
+}
+
+.hero-section {
+  display: flex;
+  height: 100vh;
+  width: 100%;
+  align-items: center;
+  justify-content: space-between;
+  padding-top: 60px;
+  position: relative;
+  color: #000;
+}
+.hero-section .left h1 {
+  font-family: "Volkhov", sans-serif;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 100%;
+  margin-bottom: 0;
+}
+
+.hero-section .left p {
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 200%;
+  margin-bottom: 30px;
+  width: 457px;
+}
+
+.hero-section .left {
+  flex: 71;
+}
+
+.hero-section .right {
+  align-self: flex-end;
+}
+
+.hero-section .right img {
+  height: 600px;
+  vertical-align: middle;
+}
+
+.achievement-card {
+  position: absolute;
+  min-width: 10px;
+  color: #000
+}
+
+.achievement-card .content {
+  padding: 5px;
+    border-radius: 10px;
+    background: #f7e9e2;
+    display:inline-block;
+    font-weight: 500;
+    font-size: 13px;
+    font-family: Poppins, sans-serif;
+    text-decoration: none;
+    position: relative;
+    display: flex;
+    justify-content: space-around;
+    gap: 10px;
+}
+
+.achievement-card.Best-tour-awards{
+  left: 50%;
+  top: 290px;
+}
+
+.achievement-card.Explore{
+ left: 85%;
+  top: 290px;
+}
+
+.achievement-card.overall-rating {
+  right: 40%;
+  bottom: 90px;
+}
+
+
+.search-bar{
+  display: flex;
+  border-radius: 15px;
+  background: #f7e9e2;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.explore-button{
+  list-style: none;
+}
+
+.title1{
+ margin-top : 200px;
+ text-align: center;
+ font-family: Volkhov, sans-serif;
+ font-weight: 700;
+  font-size: 20px;
+  color: #000;
+}
+.Things-to-do-section p{
+  text-align: center;
+}
+span.to-do {
+  color: #FA7436;
+}
+.Process{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.Sign-up{
+  padding: 20px;    
+  background: #f7e9e2;
+  width: 350px;
+  height: 250px;
+}
+.Worth-of-money{
+  padding: 20px;    
+  background: #f7e9e2;
+  width: 350px;
+  height: 250px;
+}
+.Exciting-travel{
+  padding: 20px;    
+  background: #f7e9e2;
+  width: 350px;
+  height: 250px;
+}
+
+span.deals-discounts {
+  color: #FA7436;
+}
+.title2{
+  margin-top : 100px;
+  text-align: center;
+  font-family: Volkhov, sans-serif;
+  font-weight: 700;
+   font-size: 20px;
+   color: #000
+ }
+.Exclusive-discounts p{
+  text-align: center;
+}
+
+.Book-now{
+  list-style: none;
+  margin-bottom: 100px;
+}
+.madridslot{
+  padding: 10px 5px; 
+  background: #f7e9e2;
+  width: 270px;
+  height: 120px;
+  border-radius: 15px;
+  }
+
+  .madridslot1{
+  
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    }
+
+    .madridslot2{
+      display: flex;
+      justify-content: space-around;
+      align-items: center;
+      }
+span.Finalprice{
+  color: #FA7436;
+    border-style:hidden;
+    background: #f0d6ca;
+    border-radius: 5px;
+    font-weight:600;
+}
+.Ratings{
+  display:flex;
+  justify-content: space-evenly;
+}
+.slider-btn{
+  margin-top: 50px;
+display: flex;
+justify-content: center;
+}
+.title-image{
+  margin-top : 100px;
+  text-align: center;
+  font-family: Volkhov, sans-serif;
+  font-weight: 700;
+   font-size: 20px;
+   color: #000;
+   display: flex;
+  justify-content: center;
+}
+.Best-vacation-plan p{
+  text-align: center;
+}
+span.vacation-plan{
+  color: #FA7436;
+}
+.slider-btn2{
+margin-top: 10px;
+display: flex;
+justify-content: flex-end;
+}
+
+.trip-prices{
+  margin-top: 50px;
+  display:flex;
+  justify-content: space-between;
+}
+.Rome-italy{
+  padding: 15px 5px; 
+  background: #f7e9e2;
+  width: 366px;
+  height: 130px;
+  border-radius: 15px;
+}
+.Rome-italyslot1{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.Rome-italyslot2{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+span.Tripprice{
+  color: #FA7436;
+  font-weight:600;
+}
+span.about-us{
+  color: #FA7436;
+}
+.feedback-section{
+    display: flex;
+    height: 500px;
+    width: 500px;
+    align-items: center;
+    justify-content: space-between;
+    position: relative;
+    color: #000;
+  }
+  .feedback-section .left-side h1{
+    font-family: "Volkhov", sans-serif;
+    font-weight: 700;
+    font-size: 40px;
+  }
+  
+  .feedback-section .left-side p {
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 200%;
+    margin-bottom: 30px;
+    width: 457px;
+  }
+  
+  .feedback-section .left-side {
+    flex:10;
+  }
+
+  .feedback-section .right-side img{
+    margin-top:100px;
+  }
+
+  .feedback-section .right-side-content {
+    
+    font-weight: normal;
+    margin-top: -30px;
+    margin-left: 45px;
+    padding: 20px;
+    height: 230px;
+    width: 400px;
+    background: #f0d6ca;
+    border-radius: 10px;
+    
+    
+  }
+
+  .right-side-content2{
+    font-weight: normal;
+    margin-top: 5px;
+    margin-left: 100px;
+    padding: 10px;
+    height: 70px;
+    width: 400px;
+    background: #f0d6ca;
+    border-radius: 10px;
+
+  }
+  .latest-blog h1{
+    font-family: "Volkhov", sans-serif;
+    font-weight: 700;
+    text-align: center;
+  }
+  span.latest-blog{
+    color: #FA7436;
+  }
+  .blog{
+    margin-top: 50px;
+    display:flex;
+    justify-content: space-between;
+  
+  }
+.Subscribe {
+  font-family: "Volkhov", sans-serif;
+    font-weight: 700;
+    text-align: center;
+    margin-top: 5px;
+    margin-left: 300px;
+    display: flex;
+    align-items: center;
+    padding: 100px;
+    height: 250px;
+    width: 700px;
+    background: #f0d6ca;
+    border-radius: 10px;
+}
+

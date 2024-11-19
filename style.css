@@ -382,8 +382,8 @@ span.about-us{
   font-family: "Volkhov", sans-serif;
     font-weight: 700;
     text-align: center;
-    margin-top: 5px;
-    margin-left: 300px;
+    margin-top: 50px;
+    margin-left: 700px;
     display: flex;
     align-items: center;
     padding: 100px;
@@ -393,3 +393,7 @@ span.about-us{
     border-radius: 10px;
 }
 
+.links-container{
+  display: flex;
+  justify-content: space-between;
+}
